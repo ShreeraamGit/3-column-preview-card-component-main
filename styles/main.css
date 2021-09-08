@@ -1,102 +1,179 @@
-body {
-    background-color: hsl(0, 0%, 95%);
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Big Shoulders Display', cursive;
-    margin-top: 120px;
-    margin-left: 250px;
-    margin-right: 250px;
+@media only screen and (min-width: 1440px) {
+    body {
+        background-color: hsl(0, 0%, 95%);
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Big Shoulders Display', cursive;
+        margin-top: 120px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .main-conatainer {
+        min-width: 50%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: hsl(0, 0%, 95%);
+    }
+    .box-1 {
+        background-color: hsl(31, 77%, 52%);
+        padding: 2rem 3rem;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .content p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .box-2 {
+        background-color: hsl(184, 100%, 22%);
+        padding: 2rem 3rem;
+    }
+    .box-3 {
+        background-color: hsl(179, 100%, 13%);
+        padding: 2rem 3rem;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content img {
+        width: 50px;
+    }
+    .content h1 {
+        font-size: 27px;
+    }
+    .button {
+        margin-top: 55px;
+        padding: 15px 40px;
+        border: 2px solid;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        background-color: hsl(0, 0%, 95%);
+        text-decoration: none;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        transition-duration: 1s;
+        cursor: pointer;
+    }
+    .button1 {
+        color: hsl(31, 77%, 52%);
+    }
+    .button2 {
+        color: hsl(184, 100%, 22%);
+    }
+    .button3 {
+        color: hsl(179, 100%, 13%);
+    }
+    .button1:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+    }
+    .button2:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+    }
+    .button3:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+    }
 }
 
-.main-conatainer {
-    min-width: 50%;
-    height: 450px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color: hsl(0, 0%, 95%);
-}
-
-.box-1 {
-    background-color: hsl(31, 77%, 52%);
-    padding: 2rem 3rem;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.content p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    line-height: 25px;
-    font-size: 14px;
-}
-
-.box-2 {
-    background-color: hsl(184, 100%, 22%);
-    padding: 2rem 3rem;
-}
-
-.box-3 {
-    background-color: hsl(179, 100%, 13%);
-    padding: 2rem 3rem;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.content img {
-    width: 50px;
-}
-
-.content h1 {
-    font-size: 27px;
-}
-
-.button {
-    margin-top: 55px;
-    padding: 15px 40px;
-    border: 2px solid;
-    text-align: center;
-    display: inline-block;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    background-color: hsl(0, 0%, 95%);
-    text-decoration: none;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button1 {
-    color: hsl(31, 77%, 52%);
-}
-
-.button2 {
-    color: hsl(184, 100%, 22%);
-}
-
-.button3 {
-    color: hsl(179, 100%, 13%);
-}
-
-.button1:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: white;
-}
-
-.button2:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: white;
-}
-
-.button3:hover {
-    background-color: hsl(179, 100%, 13%);
-    color: white;
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: hsl(0, 0%, 95%);
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .main-conatainer {
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 6%;
+        left: 5%;
+        right: 5%;
+        justify-content: space-evenly;
+        color: hsl(0, 0%, 95%)
+    }
+    .box-1 {
+        background-color: hsl(31, 77%, 52%);
+        padding: 2rem 3rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .box-2 {
+        background-color: hsl(184, 100%, 22%);
+        padding: 2rem 3rem;
+    }
+    .box-3 {
+        background-color: hsl(179, 100%, 13%);
+        padding: 2rem 3rem;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .content p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 10px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content img {
+        width: 50px;
+    }
+    .content h1 {
+        font-size: 27px;
+    }
+    .button {
+        margin-top: 20px;
+        padding: 7.5px 20px;
+        border: 2px solid;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        background-color: hsl(0, 0%, 95%);
+        text-decoration: none;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        transition-duration: 1s;
+        cursor: pointer;
+    }
+    .button1 {
+        color: hsl(31, 77%, 52%);
+    }
+    .button2 {
+        color: hsl(184, 100%, 22%);
+    }
+    .button3 {
+        color: hsl(179, 100%, 13%);
+    }
+    .button1:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+    }
+    .button2:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+    }
+    .button3:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+    }
 }
