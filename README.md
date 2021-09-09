@@ -32,8 +32,8 @@ This is a solution to the [3-column-preview-card-component-main](https://www.fro
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ShreeraamGit/3-column-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://shreeraamgit.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
@@ -44,11 +44,8 @@ This is a solution to the [3-column-preview-card-component-main](https://www.fro
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
